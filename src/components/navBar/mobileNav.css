@@ -4,9 +4,9 @@
   --col3: #cecece;
   --col4: rgb(170, 170, 170);
 }
+
 .navigation {
   height: 70px;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,7 @@
 }
 
 .navigation ul li.active a .icon {
-  transform : translateY(-35px);
+  transform: translateY(-35px);
 }
 
 .navigation ul li a .text {

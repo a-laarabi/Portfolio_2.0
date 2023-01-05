@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import MyNavbar from './components/navBar/MyNavbar';
 import MobileNav from './components/navBar/MobileNav';
+import Summary from './components/Banner/Summary';
 
 function useWindowWidth() {
   const [windowSize, setWindowSize] = useState(undefined);
@@ -15,6 +16,18 @@ function useWindowWidth() {
   return windowSize;
 }
 
+// function mobileSize() {
+//   return(
+
+//   );
+// }
+
+// function desk() {
+//   return(
+
+//   );
+// }
+
 function App() {
   const size = useWindowWidth();
   return (
@@ -22,6 +35,7 @@ function App() {
       <header className="App-header">
         {size < 768 ? <MobileNav /> : <MyNavbar />}
       </header>
+      <Summary />
     </div>
   );
 }

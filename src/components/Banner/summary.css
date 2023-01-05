@@ -1,0 +1,17 @@
+.myPic {
+  width: 100%;
+}
+
+.profile {
+  position: relative;
+}
+
+.hWorld {
+  position: absolute;
+  top: 15%;
+  right: 0;
+}
+
+.hWorld p {
+  font-size: 3rem;
+}

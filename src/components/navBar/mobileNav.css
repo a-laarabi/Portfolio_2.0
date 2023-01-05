@@ -5,6 +5,15 @@
   --col4: rgb(170, 170, 170);
 }
 
+.mobileLogo {
+  width: 30%;
+  margin: 20px auto;
+}
+
+.mobileLogo img {
+  width: 100%;
+}
+
 .navigation {
   height: 70px;
   display: flex;

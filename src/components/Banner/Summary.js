@@ -1,5 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import { AiOutlineDownload } from 'react-icons/ai';
+import { BsArrowRightCircle } from 'react-icons/bs';
 import myPic from '../../assets/img/summaryProfile.png';
 import resume from '../../assets/Resume.pdf';
 import './summary.css';
@@ -12,11 +13,22 @@ function Summary() {
           <Col xs={12} md={6}>
             <h1>Hi! I&apos;m Anasse a Web Developer</h1>
             <span>I&apos;m an ex Marketer who fell in love with web development</span>
-            <a className="btn line-btn-dark btn-icon btn-radius" href={resume} download>
-              <AiOutlineDownload />
-              {' '}
-              Download My Resume
-            </a>
+            <Row className="align-items-center">
+              <Col xs={12} md={6}>
+                <a className="btn line-btn-dark btn-icon btn-radius" href={resume} download>
+                  <AiOutlineDownload />
+                  {' '}
+                  Download My Resume
+                </a>
+              </Col>
+              <Col xs={12} md={6}>
+                <a className="btn line-btn-dark btn-icon btn-radius" href="#contact">
+                  Let&apos;s connect
+                  {' '}
+                  <BsArrowRightCircle />
+                </a>
+              </Col>
+            </Row>
           </Col>
           <Col xs={12} md={6}>
             <div className="profile">

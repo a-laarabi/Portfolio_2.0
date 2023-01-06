@@ -20,7 +20,7 @@ const projectsObj = [
   {
     id: 2,
     title: 'To-do list',
-    img: require('./img/projects/toDoList.png'),
+    img: require('./img/projects/toDoList.jpg'),
     projectDetailSecond: 'Front End Dev',
     projectDate: '07-2022',
     languages: ['html', 'css', 'javaScript'],
@@ -31,7 +31,7 @@ const projectsObj = [
   {
     id: 3,
     title: 'My New Game',
-    img: require('./img/projects/newGame.png'),
+    img: require('./img/projects/newGame.jpg'),
     projectDetailSecond: 'Front End Dev',
     projectDate: '11-2022',
     languages: ['html', 'css', 'javaScript', 'React'],
@@ -53,7 +53,7 @@ const projectsObj = [
   {
     id: 5,
     title: 'Car Rental',
-    img: require('./img/projects/pic3.png'),
+    img: require('./img/projects/pic3.jpg'),
     projectDetailSecond: 'Back End Dev',
     projectDate: '01-2022',
     languages: ['html', 'css', 'javaScript', 'Node.js'],

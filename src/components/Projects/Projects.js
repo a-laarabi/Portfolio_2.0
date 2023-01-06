@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
 import projectsObj from '../../assets/projectsObj';
-import Project from './Project';
+import Project from './Project_A';
 import './project.css';
 
 function Projects() {
@@ -11,6 +11,7 @@ function Projects() {
           projectsObj.map((project) => (
             <Project
               key={project.id}
+              id={project.id}
               title={project.title}
               img={project.img}
               description={project.description}

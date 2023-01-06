@@ -13,12 +13,12 @@ function Summary() {
           <Col xs={12} md={6}>
             <h1>Hi! I&apos;m Anasse a Web Developer</h1>
             <span>I&apos;m an ex Marketer who fell in love with web development</span>
-            <Row className="align-items-center">
+            <Row className="align-items-center contact">
               <Col xs={12} md={6}>
                 <a className="btn line-btn-dark btn-icon btn-radius" href={resume} download>
                   <AiOutlineDownload />
                   {' '}
-                  Download My Resume
+                  Resume
                 </a>
               </Col>
               <Col xs={12} md={6}>
@@ -35,9 +35,9 @@ function Summary() {
               <img className="myPic" src={myPic} alt="profile" />
               <div className="hWorld">
                 <p>
-                  Hello
+                  HELLO
                   <br />
-                  world!
+                  WORLD!
                 </p>
               </div>
             </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
 .myPic {
   width: 100%;
 }
@@ -8,10 +10,17 @@
 
 .hWorld {
   position: absolute;
-  top: 15%;
-  right: 0;
+  top: 5%;
+  right: -20px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
-.hWorld p {
-  font-size: 3rem;
+.contact .btn {
+  border: 2px solid #aa0c37;
+  border-radius: 8px;
+  color: #131313;
+  margin-top: 20px;
+  min-width: 150px;
 }

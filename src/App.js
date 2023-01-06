@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import MyNavbar from './components/navBar/MyNavbar';
 import MobileNav from './components/navBar/MobileNav';
 import Summary from './components/Banner/Summary';
+import Projects from './components/Projects/Projects';
 
 function useWindowWidth() {
   const [windowSize, setWindowSize] = useState(undefined);
@@ -36,6 +37,7 @@ function App() {
         {size < 768 ? <MobileNav /> : <MyNavbar />}
       </header>
       <Summary />
+      <Projects />
     </div>
   );
 }

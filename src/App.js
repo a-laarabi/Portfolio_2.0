@@ -1,8 +1,12 @@
 import { useEffect, useState } from 'react';
+import {
+  BrowserRouter, Route, Routes, Navigate,
+} from 'react-router-dom';
 import MyNavbar from './components/navBar/MyNavbar';
 import MobileNav from './components/navBar/MobileNav';
 import Summary from './components/Banner/Summary';
 import Projects from './components/Projects/Projects';
+import ProjectDetail from './components/Projects/Detail/ProjectDetail';
 
 function useWindowWidth() {
   const [windowSize, setWindowSize] = useState(undefined);
@@ -32,13 +36,24 @@ function useWindowWidth() {
 function App() {
   const size = useWindowWidth();
   return (
-    <div className="App">
-      <header className="App-header">
-        {size < 768 ? <MobileNav /> : <MyNavbar />}
-      </header>
-      <Summary />
-      <Projects />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navigate to="/Portfolio_2.0" />} />
+        <Route
+          path="/Portfolio_2.0"
+          element={(
+            <div className="App">
+              <header className="App-header">
+                {size < 768 ? <MobileNav /> : <MyNavbar />}
+              </header>
+              <Summary />
+              <Projects />
+            </div>
+        )}
+        />
+        <Route path="/details/:title" element={<ProjectDetail />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

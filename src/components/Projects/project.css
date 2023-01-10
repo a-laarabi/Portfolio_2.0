@@ -1,3 +1,16 @@
+.projects_section {
+  background: #111;
+  padding: 3em 0;
+}
+
+.technologie {
+  color: #acacac;
+}
+
+.projects h3 {
+  color: #fff;
+}
+
 .projects img {
   width: 100%;
 
@@ -7,6 +20,9 @@
 .projects .card {
   margin-top: 15px;
   margin-bottom: 15px;
+  padding: 100px;
+  background-color: #191919;
+  border-radius: 25px;
 }
 
 .projects .card-title {

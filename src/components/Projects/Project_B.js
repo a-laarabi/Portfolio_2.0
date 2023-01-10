@@ -1,14 +1,17 @@
 /* eslint-disable */
 import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 
 function Project(props) {
   return (
-    <Card>
-      <spam className="technologie" >{props.projectDetailSecond}</spam>
-      <h3>{props.title}</h3>
-      <p />
-      <img src={props.img} alt={props.title} />
-    </Card>
+    <Link to={`/details/${props.title}`}>
+      <Card>
+        <spam className="technologie" >{props.projectDetailSecond}</spam>
+        <h3>{props.title}</h3>
+        <p />
+        <img src={props.img} alt={props.title} />
+      </Card>
+    </Link>
   );
 }
 

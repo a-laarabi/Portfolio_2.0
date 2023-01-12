@@ -1,0 +1,66 @@
+.skills_section {
+  background: #111;
+  position: relative;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+
+.skills_banner {
+  /* position: absolute; */
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #191919;
+  padding: 2em;
+}
+
+.skills_banner h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.skills_banner .nav-item {
+  width: 33.33333%;
+}
+
+.skills_banner .nav-link {
+  background-color: transparent;
+  border-radius: 0;
+  color: #fff;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+}
+
+.skills_banner .nav-link::before {
+  content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+
+/* tab content */
+
+.tab-content .col{
+  text-align: center!important;  
+  color: #fff;
+}
+
+.tab-content .col svg{
+  font-size: 2.4em;
+}
+
+.tab-content .col p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}

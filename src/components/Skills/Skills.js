@@ -1,9 +1,9 @@
 /* eslint-disable */
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiReact, DiRuby } from 'react-icons/di';
-import { SiJavascript, SiRubyonrails, SiPostgresql } from 'react-icons/si';
-import { FaCss3Alt } from 'react-icons/fa';
-import { BsBootstrapFill } from 'react-icons/bs';
+import { SiJavascript, SiRubyonrails, SiPostgresql, SiVisualstudiocode } from 'react-icons/si';
+import { FaCss3Alt, FaGitAlt } from 'react-icons/fa';
+import { BsBootstrapFill, BsGithub } from 'react-icons/bs';
 import { IoLogoNodejs } from 'react-icons/io';
 import { Row, Col, Tab, Nav } from "react-bootstrap";
 import './skills.css'
@@ -13,6 +13,7 @@ const Skills = () => {
     <section className="skills_section">
       <div className="skills_banner">
         <h2>Skills</h2>
+        <p className="skillsP">Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux</p>
         <Tab.Container id="projects-tabs" defaultActiveKey="first">
           <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
             <Nav.Item>
@@ -56,16 +57,19 @@ const Skills = () => {
               <Row>
                 <Col className='text-center'>
                   <DiRuby />
-                  <p>React</p>
+                  <p>Ruby</p>
                 </Col>
                 <Col>
                   <SiRubyonrails />
+                  <p>Ruby on Rails</p>
                 </Col>
                 <Col>
                   <IoLogoNodejs />
+                  <p>Node.js</p>
                 </Col>
                 <Col>
                   <SiPostgresql />
+                  <p>PostgreSQL</p>
                 </Col>
               </Row>
             </Tab.Pane>
@@ -73,16 +77,16 @@ const Skills = () => {
             <Tab.Pane eventKey="third">
               <Row>
                 <Col>
-                  <DiRuby />
+                  <FaGitAlt />
+                  <p>Git</p>
                 </Col>
                 <Col>
-                  <SiRubyonrails />
+                  <BsGithub />
+                  <p>GitHub</p>
                 </Col>
                 <Col>
-                  <IoLogoNodejs />
-                </Col>
-                <Col>
-                  <SiPostgresql />
+                  <SiVisualstudiocode />
+                  <p>Visual Studio Code</p>
                 </Col>
               </Row>
             </Tab.Pane>

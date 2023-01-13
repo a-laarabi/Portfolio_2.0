@@ -10,7 +10,7 @@ function Summary() {
     <div className="summary">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="def">
             <h1>Hi! I&apos;m Anasse a Web Developer</h1>
             <span>I&apos;m an ex Marketer who fell in love with web development</span>
             <Row className="align-items-center contact">
@@ -30,7 +30,7 @@ function Summary() {
               </Col>
             </Row>
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="intro">
             <div className="profile">
               <img className="myPic" src={myPic} alt="profile" />
               <div className="hWorld">

@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
+.summary{
+  padding-bottom: 100px;
+}
 .myPic {
   width: 100%;
 }
 
 .profile {
   position: relative;
+}
+
+.def {
+  margin-bottom: 20px;
 }
 
 .hWorld {
@@ -24,3 +31,14 @@
   margin-top: 20px;
   min-width: 150px;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    order: -1;
+  }
+}
+
+
+
+
+

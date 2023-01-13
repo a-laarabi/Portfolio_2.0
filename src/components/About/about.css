@@ -1,0 +1,27 @@
+.about_meBody {
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 30px;
+  background: rgb(214, 212, 188);
+  padding: 10%;
+  max-height: 50vh;
+  overflow: scroll;
+}
+
+.about_meBody::-webkit-scrollbar {
+  width: 0em;
+}
+
+.about_meBody h2 {
+  text-align: center;
+}
+
+.about_meBody p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.quote {
+  font-size: 15px;
+  margin-top: -12px;
+}

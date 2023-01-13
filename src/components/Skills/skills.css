@@ -47,28 +47,27 @@
 
 .skills_banner .nav-link::before {
   content: "";
-    position: absolute;
-    width: 0;
-    height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.3s ease-in-out;
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
 }
 
 /* tab content */
 
-.tab-content .col{
-  text-align: center!important;  
+.tab-content .col {
+  text-align: center !important;
   color: #fff;
 }
 
-.tab-content .col svg{
+.tab-content .col svg {
   font-size: 2.4em;
 }
 
 .tab-content .col p {
-  margin-bottom: 0;
   margin: 15px 0;
 }

@@ -1,0 +1,40 @@
+.contact {
+  background: linear-gradient(180deg,#edca85,#f093b0);
+  padding-top: 25vh;
+  padding-bottom: 120px;
+}
+
+.contactIntro {
+  text-align: center;
+}
+
+.linkedinBtn {
+  text-decoration: none;
+  color: black;
+  padding: 8px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.contact input,
+textarea {
+  width: 100%;
+  padding: 9px 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+label {
+  width: 100%;
+}
+
+.submit {
+  padding: 8px 15px;
+  color: #fff;
+  border-radius: 8px;
+  background-color: black;
+}

@@ -9,6 +9,7 @@ import Projects from './components/Projects/Projects';
 import ProjectDetail from './components/Projects/Detail/ProjectDetail';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 import './App.css';
 
 function useWindowWidth() {
@@ -54,6 +55,7 @@ function App() {
                 <Skills />
                 <Projects />
                 <About />
+                <Contact />
               </div>
             </div>
         )}

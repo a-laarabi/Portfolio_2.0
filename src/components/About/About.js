@@ -3,7 +3,7 @@ import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 import './about.css';
 
 const About = () => (
-  <Container className="about_me">
+  <Container id="aboutMe" className="about_me">
     <Row className="about_meBody">
       <h2>About me</h2>
       <p>

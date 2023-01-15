@@ -20,8 +20,8 @@ function MyNavbar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('home')} href="#home">Home</Nav.Link>
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#aboutMe">About</Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
             <button className="vvd" type="submit">Let&apos;s Connect</button>
           </Navbar.Collapse>

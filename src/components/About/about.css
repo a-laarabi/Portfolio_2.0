@@ -1,9 +1,14 @@
+.about_me {
+  position: relative;
+  margin-top: -20vh;
+  bottom: -20vh;
+}
 .about_meBody {
   width: 85%;
   margin: 0 auto;
   border-radius: 30px;
   background: rgb(214, 212, 188);
-  padding: 10%;
+  padding: 30px 10%;
   max-height: 50vh;
   overflow: scroll;
 }

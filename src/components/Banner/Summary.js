@@ -13,7 +13,7 @@ function Summary() {
           <Col xs={12} md={6} className="def">
             <h1>Hi! I&apos;m Anasse a Web Developer</h1>
             <span>I&apos;m an ex Marketer who fell in love with web development</span>
-            <Row className="align-items-center contact">
+            <Row className="align-items-center headerContact">
               <Col xs={12} md={6}>
                 <a className="btn line-btn-dark btn-icon btn-radius" href={resume} download>
                   <AiOutlineDownload />

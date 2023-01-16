@@ -1,12 +1,10 @@
 .skills_section {
   background: #111;
-  position: relative;
-  margin-top: 20px;
-  padding-top: 30px;
 }
 
 .skills_banner {
-  /* position: absolute; */
+  position: relative;
+  top: -100px;
   width: 75%;
   margin: 0 auto;
   border-radius: 30px;

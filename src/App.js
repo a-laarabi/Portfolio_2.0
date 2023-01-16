@@ -8,6 +8,9 @@ import Summary from './components/Banner/Summary';
 import Projects from './components/Projects/Projects';
 import ProjectDetail from './components/Projects/Detail/ProjectDetail';
 import Skills from './components/Skills/Skills';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import './App.css';
 
 function useWindowWidth() {
   const [windowSize, setWindowSize] = useState(undefined);
@@ -48,8 +51,12 @@ function App() {
                 {size < 768 ? <MobileNav /> : <MyNavbar />}
               </header>
               <Summary />
-              <Skills />
-              <Projects />
+              <div className="blackBack">
+                <Skills />
+                <Projects />
+                <About />
+                <Contact />
+              </div>
             </div>
         )}
         />

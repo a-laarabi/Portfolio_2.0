@@ -27,7 +27,7 @@ function Contact() {
           <p>Want to connect with me or collaborate on projects together, You can send me a message and I&apos;ll reply as soon as I can.. Thank You.</p>
           <a className="linkedinBtn" href="https://www.linkedin.com/in/a-laarabi/">LinkedIn</a>
         </div>
-        <form onSubmit={handleSubmit}>
+        <form action="https://formspree.io/f/xnqwwrdy" method="post">
           <Row>
             <Col xs={12} md={6}>
               <label htmlFor="name">

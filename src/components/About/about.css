@@ -3,6 +3,7 @@
   margin-top: -20vh;
   bottom: -20vh;
 }
+
 .about_meBody {
   width: 85%;
   margin: 0 auto;
@@ -14,7 +15,7 @@
 }
 
 .about_meBody::-webkit-scrollbar {
-  width: 0em;
+  width: 0;
 }
 
 .about_meBody h2 {

@@ -1,9 +1,10 @@
+/* eslint-disable */
 import React, { useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../../assets/img/Portfolio-PNG-Image.png';
 import './nav.css';
 
-function MyNavbar() {
+function MyNavbar({ activeSection }) {
   const [activeLink, setActiveLink] = useState('home');
 
   const updateActiveLink = (value) => {
@@ -11,7 +12,7 @@ function MyNavbar() {
   };
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" className="deskNav">
         <Container>
           <Navbar.Brand href="#home">
             <img className="logo" src={logo} alt="Logo" />
@@ -19,9 +20,12 @@ function MyNavbar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('home')} href="#home">Home</Nav.Link>
-              <Nav.Link href="#aboutMe">About</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              {/* <Nav.Link className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => updateActiveLink('home')} href="#home">Home</Nav.Link> */}
+              <Nav.Link href="#home" className={activeSection === 'home' ? "active" : 'list'}>Home</Nav.Link>
+              <Nav.Link href="#skills" className={activeSection === 'skills' ? "active" : 'list'}>Skills</Nav.Link>
+              <Nav.Link href="#project" className={activeSection === 'project' ? "active" : 'list'}>Projects</Nav.Link>
+              <Nav.Link href="#about" className={activeSection === 'about' ? "active" : 'list'}>About</Nav.Link>
+              <Nav.Link href="#contact" className={activeSection === 'contact' ? "active" : 'list'}>Contact</Nav.Link>
             </Nav>
             <button className="vvd" type="submit">Let&apos;s Connect</button>
           </Navbar.Collapse>

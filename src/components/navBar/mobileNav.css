@@ -30,6 +30,7 @@
 
 .navigation ul {
   display: flex;
+  padding-left: 0;
 }
 
 .navigation ul li {
@@ -85,7 +86,8 @@
   background-color: var(--col1);
   border-radius: 50%;
   border: 8px solid var(--col2);
-  transition: 0.5s;
+  transition: all 0.5s;
+  /* transform: translateX(calc(70px*0)); */
 }
 
 /* .indicator::after {

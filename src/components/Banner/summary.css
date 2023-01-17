@@ -25,6 +25,11 @@
   font-size: 3rem;
 }
 
+.media {
+  color: #131313;
+  font-size: 1.3em;
+}
+
 .headerContact .btn {
   border: 2px solid #aa0c37;
   border-radius: 8px;

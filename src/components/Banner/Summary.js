@@ -1,18 +1,31 @@
+/* eslint-disable */
 import { Col, Container, Row } from 'react-bootstrap';
-import { AiOutlineDownload } from 'react-icons/ai';
+import { AiOutlineDownload, AiOutlineMedium } from 'react-icons/ai';
 import { BsArrowRightCircle } from 'react-icons/bs';
+import { FaAngellist } from 'react-icons/fa';
+import { GrLinkedinOption } from 'react-icons/gr';
+import { TbBrandGithub } from 'react-icons/tb';
+
 import myPic from '../../assets/img/summaryProfile.png';
 import resume from '../../assets/Resume.pdf';
 import './summary.css';
 
 function Summary() {
   return (
-    <div className="summary">
+    <section className="summary" id="home">
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} className="def">
             <h1>Hi! I&apos;m Anasse a Web Developer</h1>
-            <span>I&apos;m an ex Marketer who fell in love with web development</span>
+            <p>I&apos;m an ex Marketer who fell in love with web development</p>
+
+            <Row className="socialMedia">
+              <a className="col-2 media" href="https://github.com/a-laarabi"><TbBrandGithub /></a>
+              <a className="col-2 media" href="https://www.linkedin.com/in/a-laarabi/"><GrLinkedinOption /></a>
+              <a className="col-2 media" href="https://medium.com/@a.laarabi"><AiOutlineMedium /></a>
+              <a className="col-2 media" href="https://angel.co/u/a-laarabi"><FaAngellist /></a>
+            </Row>
+
             <Row className="align-items-center headerContact">
               <Col xs={12} md={6}>
                 <a className="btn line-btn-dark btn-icon btn-radius" href={resume} download>
@@ -44,7 +57,7 @@ function Summary() {
           </Col>
         </Row>
       </Container>
-    </div>
+    </section>
   );
 }
 

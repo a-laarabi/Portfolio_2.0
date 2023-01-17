@@ -5,7 +5,7 @@ import './project.css';
 
 function Projects() {
   return (
-    <div className="projects_section">
+    <section className="projects_section" id="project">
       <Container>
         <div className="projects">
           {
@@ -24,7 +24,7 @@ function Projects() {
           }
         </div>
       </Container>
-    </div>
+    </section>
   );
 }
 

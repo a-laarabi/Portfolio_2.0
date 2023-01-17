@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useEffect, useState } from 'react';
 import {
   BrowserRouter, Route, Routes, Navigate,
@@ -25,20 +26,34 @@ function useWindowWidth() {
   return windowSize;
 }
 
-// function mobileSize() {
-//   return(
-
-//   );
-// }
-
-// function desk() {
-//   return(
-
-//   );
-// }
-
 function App() {
   const size = useWindowWidth();
+
+  const [activeSection, setActiveSection] = useState('home');
+
+  useEffect(() => {
+    // Add an event listener to the window object
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      // Remove the event listener when the component unmounts
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    // Get the current scroll position
+    const scrollPos = window.pageYOffset;
+
+    // Iterate through the sections to find the one that is currently visible
+    document.querySelectorAll('section').forEach((section) => {
+      if (scrollPos >= section.offsetTop - 150 && scrollPos < (section.offsetTop + section.offsetHeight)) {
+        setActiveSection(section.id);
+        // console.log(section.offsetTop);
+        // console.log(section.offsetTop - 150);
+      }
+    });
+  }
+
   return (
     <BrowserRouter>
       <Routes>
@@ -48,7 +63,7 @@ function App() {
           element={(
             <div className="App">
               <header className="App-header">
-                {size < 768 ? <MobileNav /> : <MyNavbar />}
+                {size < 768 ? <MobileNav activeSection={activeSection}/> : <MyNavbar activeSection={activeSection} />}
               </header>
               <Summary />
               <div className="blackBack">

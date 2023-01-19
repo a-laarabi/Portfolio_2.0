@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import {
   BrowserRouter, Route, Routes, Navigate,
 } from 'react-router-dom';
+import Logo from './components/Logo/Logo';
 import MyNavbar from './components/navBar/MyNavbar';
 import MobileNav from './components/navBar/MobileNav';
 import Summary from './components/Banner/Summary';
@@ -29,6 +30,14 @@ function useWindowWidth() {
 function App() {
   const size = useWindowWidth();
 
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000)
+  })
+
+
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
@@ -54,7 +63,9 @@ function App() {
     });
   }
 
-  return (
+  return loading ? (
+    <Logo />
+  ) : (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/Portfolio_2.0" />} />

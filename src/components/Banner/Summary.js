@@ -20,10 +20,10 @@ function Summary() {
             <p>I&apos;m an ex Marketer who fell in love with web development</p>
 
             <Row className="socialMedia">
-              <a className="col-2 media" href="https://github.com/a-laarabi"><TbBrandGithub /></a>
-              <a className="col-2 media" href="https://www.linkedin.com/in/a-laarabi/"><GrLinkedinOption /></a>
-              <a className="col-2 media" href="https://medium.com/@a.laarabi"><AiOutlineMedium /></a>
-              <a className="col-2 media" href="https://angel.co/u/a-laarabi"><FaAngellist /></a>
+              <a className="col-2 col-md-1 media" href="https://github.com/a-laarabi"><TbBrandGithub /></a>
+              <a className="col-2 col-md-1 media" href="https://www.linkedin.com/in/a-laarabi/"><GrLinkedinOption /></a>
+              <a className="col-2 col-md-1 media" href="https://medium.com/@a.laarabi"><AiOutlineMedium /></a>
+              <a className="col-2 col-md-1 media" href="https://angel.co/u/a-laarabi"><FaAngellist /></a>
             </Row>
 
             <Row className="align-items-center headerContact">

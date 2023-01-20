@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio_2.0/static/css/main.66da408f.css",
-    "main.js": "/Portfolio_2.0/static/js/main.8cf096ff.js",
+    "main.css": "/Portfolio_2.0/static/css/main.1271f3bb.css",
+    "main.js": "/Portfolio_2.0/static/js/main.4cb9e7c7.js",
     "static/media/summaryProfile.png": "/Portfolio_2.0/static/media/summaryProfile.2512a0b45f794cd3d330.png",
-    "static/media/pic1.jpg": "/Portfolio_2.0/static/media/pic1.0fa310d0cdc1385ee9e4.jpg",
+    "static/media/coffeShopTab.png": "/Portfolio_2.0/static/media/coffeShopTab.a82dace15c6ffcee11cc.png",
+    "static/media/coffeShopPhone.png": "/Portfolio_2.0/static/media/coffeShopPhone.1289a45382e9dae271e6.png",
+    "static/media/coffeShop.png": "/Portfolio_2.0/static/media/coffeShop.d422aa0e32b3ae735270.png",
+    "static/media/toDoListPhone.jpg": "/Portfolio_2.0/static/media/toDoListPhone.c215f2072e4bf0ce5e09.jpg",
     "static/media/Resume.pdf": "/Portfolio_2.0/static/media/Resume.db66e03dc0679c4edf10.pdf",
+    "static/media/toDoListTab.jpg": "/Portfolio_2.0/static/media/toDoListTab.ad9200ba79581624b6a7.jpg",
     "static/media/pic3.jpg": "/Portfolio_2.0/static/media/pic3.8c43231ea907f445d8eb.jpg",
     "static/media/newGame.jpg": "/Portfolio_2.0/static/media/newGame.f9580eab97526301578e.jpg",
     "static/media/pic2.jpg": "/Portfolio_2.0/static/media/pic2.d74f47dc8e6a00c35e58.jpg",
-    "static/media/toDoList.jpg": "/Portfolio_2.0/static/media/toDoList.20c07f5552647e7b4b71.jpg",
+    "static/media/toDoList.png": "/Portfolio_2.0/static/media/toDoList.3915f85ba7a6a1f13332.png",
     "static/media/Portfolio-PNG-Image.png": "/Portfolio_2.0/static/media/Portfolio-PNG-Image.a4db3e0ec0218abe23e1.png",
     "index.html": "/Portfolio_2.0/index.html",
-    "main.66da408f.css.map": "/Portfolio_2.0/static/css/main.66da408f.css.map",
-    "main.8cf096ff.js.map": "/Portfolio_2.0/static/js/main.8cf096ff.js.map"
+    "main.1271f3bb.css.map": "/Portfolio_2.0/static/css/main.1271f3bb.css.map",
+    "main.4cb9e7c7.js.map": "/Portfolio_2.0/static/js/main.4cb9e7c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.66da408f.css",
-    "static/js/main.8cf096ff.js"
+    "static/css/main.1271f3bb.css",
+    "static/js/main.4cb9e7c7.js"
   ]
 }

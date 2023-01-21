@@ -1,6 +1,8 @@
 /* eslint-disable */
 import React, { useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { AiOutlineDownload } from 'react-icons/ai';
+import resume from '../../assets/Resume.pdf';
 import logo from '../../assets/img/Portfolio-PNG-Image.png';
 import './nav.css';
 
@@ -27,7 +29,12 @@ function MyNavbar({ activeSection }) {
               <Nav.Link href="#about" className={activeSection === 'about' ? "active" : 'list'}>About</Nav.Link>
               <Nav.Link href="#contact" className={activeSection === 'contact' ? "active" : 'list'}>Contact</Nav.Link>
             </Nav>
-            <button className="vvd" type="submit">Let&apos;s Connect</button>
+            {/* <button className="autoBtn" type="submit">Let&apos;s Connect</button> */}
+            <a className="autoBtn" href={resume} download>
+                  <AiOutlineDownload />
+                  {' '}
+                  Resume
+                </a>
           </Navbar.Collapse>
         </Container>
       </Navbar>

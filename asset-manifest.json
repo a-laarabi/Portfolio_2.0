@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/Portfolio_2.0/static/css/main.76e83f2e.css",
-    "main.js": "/Portfolio_2.0/static/js/main.be6129c9.js",
+    "main.js": "/Portfolio_2.0/static/js/main.5fc47d2f.js",
+    "static/media/loveHorses.png": "/Portfolio_2.0/static/media/loveHorses.741e866d78ca1b2cd3a4.png",
     "static/media/summaryProfile.png": "/Portfolio_2.0/static/media/summaryProfile.2512a0b45f794cd3d330.png",
     "static/media/coffeShopTab.png": "/Portfolio_2.0/static/media/coffeShopTab.a82dace15c6ffcee11cc.png",
+    "static/media/loveHorsesTab.png": "/Portfolio_2.0/static/media/loveHorsesTab.5595f845211351ed1ff5.png",
     "static/media/newGamePhone.png": "/Portfolio_2.0/static/media/newGamePhone.f619e37b55079e5bd59e.png",
+    "static/media/loveHorsesPhone.png": "/Portfolio_2.0/static/media/loveHorsesPhone.b1014463569161c81ea2.png",
     "static/media/coffeShopPhone.png": "/Portfolio_2.0/static/media/coffeShopPhone.1289a45382e9dae271e6.png",
     "static/media/coffeShop.png": "/Portfolio_2.0/static/media/coffeShop.d422aa0e32b3ae735270.png",
     "static/media/newGame.png": "/Portfolio_2.0/static/media/newGame.50a1cd6e6f61325f2d66.png",
     "static/media/newGameTab.jpg": "/Portfolio_2.0/static/media/newGameTab.bde3c07f69d2aefbebbf.jpg",
-    "static/media/spaceHubTab.jpg": "/Portfolio_2.0/static/media/spaceHubTab.563c4dcd162792e123d5.jpg",
-    "static/media/spaceHub.png": "/Portfolio_2.0/static/media/spaceHub.3b6b312ab552eba4e8b5.png",
     "static/media/toDoListPhone.png": "/Portfolio_2.0/static/media/toDoListPhone.86c8a42c2d0b164fa6f9.png",
     "static/media/Resume.pdf": "/Portfolio_2.0/static/media/Resume.db66e03dc0679c4edf10.pdf",
     "static/media/toDoListTab.jpg": "/Portfolio_2.0/static/media/toDoListTab.ad9200ba79581624b6a7.jpg",
-    "static/media/spaceHubTabSecond.jpg": "/Portfolio_2.0/static/media/spaceHubTabSecond.943f065cd4487c7df267.jpg",
     "static/media/toDoList.png": "/Portfolio_2.0/static/media/toDoList.3915f85ba7a6a1f13332.png",
     "static/media/Portfolio-PNG-Image.png": "/Portfolio_2.0/static/media/Portfolio-PNG-Image.a4db3e0ec0218abe23e1.png",
     "index.html": "/Portfolio_2.0/index.html",
     "main.76e83f2e.css.map": "/Portfolio_2.0/static/css/main.76e83f2e.css.map",
-    "main.be6129c9.js.map": "/Portfolio_2.0/static/js/main.be6129c9.js.map"
+    "main.5fc47d2f.js.map": "/Portfolio_2.0/static/js/main.5fc47d2f.js.map"
   },
   "entrypoints": [
     "static/css/main.76e83f2e.css",
-    "static/js/main.be6129c9.js"
+    "static/js/main.5fc47d2f.js"
   ]
 }

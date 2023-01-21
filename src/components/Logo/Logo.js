@@ -2,10 +2,10 @@
 import './logo.css'
 
 const Logo = () => {
-  const logo = document.querySelectorAll(".Logo path");
-  for (let i = 0; i < logo.length; i++){
-    console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
-  }
+  // const logo = document.querySelectorAll(".Logo path");
+  // for (let i = 0; i < logo.length; i++){
+  //   console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
+  // }
   return(
   <div className="svgLogo">
     <svg className="Logo" width="549" height="174" viewBox="0 0 549 174" fill="none" xmlns="http://www.w3.org/2000/svg">

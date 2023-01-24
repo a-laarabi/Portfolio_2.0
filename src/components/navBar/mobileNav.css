@@ -6,12 +6,14 @@
 }
 
 .mobileLogo {
-  width: 30%;
-  margin: 20px auto;
+  background: #eaeaea;
+  padding: 20px 0;
 }
 
 .mobileLogo img {
-  width: 100%;
+  display: block;
+  width: 30%;
+  margin: 0 auto;
 }
 
 .navigation {
@@ -26,10 +28,16 @@
   bottom: 0;
   width: 100%;
   z-index: 100;
+
+  /* https://stackoverflow.com/questions/20039765/how-to-apply-a-css-filter-to-a-background-image */
+
+  /* --tw-backdrop-blur: blur(1.5rem);
+  --tw-bg-opacity: 0.5!important; */
 }
 
 .navigation ul {
   display: flex;
+  padding-left: 0;
 }
 
 .navigation ul li {
@@ -85,7 +93,9 @@
   background-color: var(--col1);
   border-radius: 50%;
   border: 8px solid var(--col2);
-  transition: 0.5s;
+  transition: all 0.5s;
+
+  /* transform: translateX(calc(70px*0)); */
 }
 
 /* .indicator::after {

@@ -8,7 +8,10 @@
   width: 85%;
   margin: 0 auto;
   border-radius: 30px;
-  background: rgb(214, 212, 188);
+  border: 4px solid #222;
+  background: #222;
+
+  /* background: linear-gradient(223.65deg,rgba(10,207,131,0) 80.59%,rgba(10,207,131,.62) 113.24%),#191919; */
   padding: 30px 10%;
   max-height: 50vh;
   overflow: scroll;
@@ -20,11 +23,14 @@
 
 .about_meBody h2 {
   text-align: center;
+  color: #fff;
 }
 
 .about_meBody p {
   font-size: 1.2em;
   text-align: justify;
+  color: #fff;
+  opacity: 0.9;
 }
 
 .quote {

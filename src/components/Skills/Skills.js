@@ -10,8 +10,8 @@ import './skills.css'
 
 const Skills = () => {
   return(
-    <section className="skills_section">
-      <div className="skills_banner">
+    <div className="skills_section">
+      <section className="skills_banner" id="skills">
         <h2>Skills</h2>
         <p className="skillsP">Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux</p>
         <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -92,8 +92,8 @@ const Skills = () => {
             </Tab.Pane>
           </Tab.Content>
         </Tab.Container>
-      </div>
-    </section>
+      </section>
+    </div>
   )
 }
 

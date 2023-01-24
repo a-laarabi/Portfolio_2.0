@@ -17,7 +17,9 @@ function Summary() {
         <Row className="align-items-center">
           <Col xs={12} md={6} className="def">
             <h1>Hi! I&apos;m Anasse a Web Developer</h1>
-            <p>I&apos;m an ex Marketer who fell in love with web development</p>
+            <p>
+            I have experience building dynamic and responsive web applications. I am a quick learner and always looking to improve my skills and knowledge in web development.
+            </p>
 
             <Row className="socialMedia">
               <a className="col-2 col-md-1 media" href="https://github.com/a-laarabi"><TbBrandGithub /></a>

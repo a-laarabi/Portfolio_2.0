@@ -1,11 +1,12 @@
 .projects_section {
   margin-top: -40px;
+
   /* padding-bottom: 3em; */
 }
 
 .technologie {
   color: #fff;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .projects h3 {
@@ -20,6 +21,7 @@
   /* margin-top: 15px; */
   margin-bottom: 4em;
   padding: 10%;
+
   /* height: 50vh; */
   background-color: #191919;
   border-radius: 25px;

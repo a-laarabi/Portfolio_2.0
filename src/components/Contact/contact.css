@@ -10,17 +10,16 @@
 }
 
 .contactIntro h2,
-.contactIntro p{
+.contactIntro p {
   color: #fff;
 }
 
-.contactIntro p{
+.contactIntro p {
   opacity: 0.5;
 }
 
 .linkedinBtn {
   position: relative;
-
   text-decoration: none;
   color: #fff;
   padding: 8px 20px;
@@ -62,21 +61,25 @@ textarea {
   padding: 9px 15px;
   margin-top: 20px;
   border-radius: 10px;
+
   /* background: transparent; */
   border: none;
   color: #191919;
   font-weight: 500;
+
   /* opacity: 0.8; */
+
   /* border-top: 4px solid #222;
   border-bottom: 4px solid #222; */
 }
 
-textarea:focus, input:focus{
-  outline: none;
-}
-
 textarea {
   min-height: 20vh;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
 }
 
 label {

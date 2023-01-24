@@ -1,5 +1,4 @@
 
-
 .project_detail img {
   /* display: block; */
   width: 100%;
@@ -17,7 +16,7 @@
 .detailHeader {
   height: 40vh;
   position: relative;
-  box-shadow: 0 52px 74px rgb(0 21 64 / 14%)
+  box-shadow: 0 52px 74px rgb(0 21 64 / 14%);
 }
 
 .goBack {
@@ -36,7 +35,7 @@
 .goBack:hover {
   color: #191919;
   background: #fff;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .detailHeader h1 {
@@ -44,12 +43,12 @@
   bottom: 0;
   left: 5%;
   font-weight: 900;
-  background: linear-gradient(271deg,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  background: linear-gradient(271deg, #a162e8 50%, #f093b0 70%, #edca85 94%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
   /* text-shadow: 0 52px 74px rgb(0 21 64 / 14%); */
   text-shadow: 3px 5px 8px rgb(0 21 64 / 40%);
-
 }
 
 .project_detail .container {

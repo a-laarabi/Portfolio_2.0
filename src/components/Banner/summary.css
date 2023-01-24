@@ -28,7 +28,7 @@
 
 .summary h1 {
   font-weight: 900;
-  background: linear-gradient(308deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  background: linear-gradient(308deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -41,8 +41,7 @@
 .media:hover {
   color: #aa0c37;
   font-size: 1.5em;
-
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .headerContact .btn {
@@ -79,20 +78,18 @@
   transform: scaleX(1);
 }
 
-
-
 .myBtn {
   top: 20px;
   margin-top: 20px;
-
   min-width: 150px;
   font-size: 1em;
   font-weight: 500;
   color: #131313;
+
   /* padding: 10px 30px; */
   border: 2px solid #aa0c37;
   position: relative;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .myBtn:hover {
@@ -106,7 +103,7 @@
   width: 20px;
   height: 30px;
   border: inherit;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .myBtn::before {
@@ -125,7 +122,6 @@
 .myBtn:hover::after {
   width: calc(100% + 18px);
   height: calc(100% + 18px);
-
 }
 
 @media (max-width: 768px) {

@@ -18,8 +18,9 @@
 
 .projects .card {
   /* margin-top: 15px; */
-  margin-bottom: 8em;
-  padding: 15%;
+  margin-bottom: 4em;
+  padding: 10%;
+  /* height: 50vh; */
   background-color: #191919;
   border-radius: 25px;
 }
@@ -38,4 +39,12 @@
   padding: 10px;
   font-weight: 600;
   color: #000;
+}
+
+@media (min-width: 768px) {
+  .projects img {
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+  }
 }

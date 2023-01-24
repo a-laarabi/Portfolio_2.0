@@ -1,9 +1,10 @@
 /* eslint-disable */
-import { Card } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 
 function Project(props) {
   return (
+    <Col xs={12} md={6}>
     <Link to={`/details/${props.title}`}>
       <Card>
         <spam className="technologie" >{props.projectDetailSecond}</spam>
@@ -12,6 +13,7 @@ function Project(props) {
         <img src={props.img} alt={props.title} />
       </Card>
     </Link>
+    </Col>
   );
 }
 

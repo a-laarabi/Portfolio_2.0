@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import emailjs from 'emailjs-com';
+/* eslint-disable */
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -7,6 +8,8 @@ import { BsLinkedin } from 'react-icons/bs';
 import './contact.css';
 
 function Contact() {
+  const form = useRef();
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -18,9 +21,12 @@ function Contact() {
   };
 
   const handleSubmit = (event) => {
+    
+
     event.preventDefault();
 
-    emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, formData, process.env.REACT_APP_PUBLIC_KEY)
+    // emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, formData, process.env.REACT_APP_PUBLIC_KEY)
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then(() => {
         toast.success('🎉 Message sent successfully.. Thank You');
         setFormData({
@@ -47,7 +53,7 @@ function Contact() {
               <BsLinkedin />
             </a>
           </div>
-          <form onSubmit={handleSubmit}>
+          <form ref={form} onSubmit={handleSubmit}>
             <Row>
               <Col xs={12} md={6}>
                 <label htmlFor="name">

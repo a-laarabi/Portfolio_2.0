@@ -41,24 +41,18 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
-    // Add an event listener to the window object
     window.addEventListener('scroll', handleScroll);
     return () => {
-      // Remove the event listener when the component unmounts
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   const handleScroll = () => {
-    // Get the current scroll position
     const scrollPos = window.pageYOffset;
 
-    // Iterate through the sections to find the one that is currently visible
     document.querySelectorAll('section').forEach((section) => {
       if (scrollPos >= section.offsetTop - 150 && scrollPos < (section.offsetTop + section.offsetHeight)) {
         setActiveSection(section.id);
-        // console.log(section.offsetTop);
-        // console.log(section.offsetTop - 150);
       }
     });
   }

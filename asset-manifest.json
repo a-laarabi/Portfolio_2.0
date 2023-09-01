@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_2.0/static/css/main.b4d89691.css",
-    "main.js": "/Portfolio_2.0/static/js/main.b4d9c52a.js",
+    "main.css": "/Portfolio_2.0/static/css/main.2c1d9e80.css",
+    "main.js": "/Portfolio_2.0/static/js/main.eab42a2d.js",
     "static/media/loveHorses.png": "/Portfolio_2.0/static/media/loveHorses.741e866d78ca1b2cd3a4.png",
     "static/media/summaryProfile.png": "/Portfolio_2.0/static/media/summaryProfile.2512a0b45f794cd3d330.png",
     "static/media/coffeShopTab.png": "/Portfolio_2.0/static/media/coffeShopTab.a82dace15c6ffcee11cc.png",
@@ -13,16 +13,16 @@
     "static/media/newGame.png": "/Portfolio_2.0/static/media/newGame.50a1cd6e6f61325f2d66.png",
     "static/media/newGameTab.jpg": "/Portfolio_2.0/static/media/newGameTab.bde3c07f69d2aefbebbf.jpg",
     "static/media/toDoListPhone.png": "/Portfolio_2.0/static/media/toDoListPhone.86c8a42c2d0b164fa6f9.png",
-    "static/media/Resume.pdf": "/Portfolio_2.0/static/media/Resume.b44509e46a7df3019721.pdf",
+    "static/media/Resume.pdf": "/Portfolio_2.0/static/media/Resume.1688ad2ab134f62786f1.pdf",
     "static/media/toDoListTab.jpg": "/Portfolio_2.0/static/media/toDoListTab.ad9200ba79581624b6a7.jpg",
     "static/media/toDoList.png": "/Portfolio_2.0/static/media/toDoList.3915f85ba7a6a1f13332.png",
     "static/media/Portfolio-PNG-Image.png": "/Portfolio_2.0/static/media/Portfolio-PNG-Image.a4db3e0ec0218abe23e1.png",
     "index.html": "/Portfolio_2.0/index.html",
-    "main.b4d89691.css.map": "/Portfolio_2.0/static/css/main.b4d89691.css.map",
-    "main.b4d9c52a.js.map": "/Portfolio_2.0/static/js/main.b4d9c52a.js.map"
+    "main.2c1d9e80.css.map": "/Portfolio_2.0/static/css/main.2c1d9e80.css.map",
+    "main.eab42a2d.js.map": "/Portfolio_2.0/static/js/main.eab42a2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4d89691.css",
-    "static/js/main.b4d9c52a.js"
+    "static/css/main.2c1d9e80.css",
+    "static/js/main.eab42a2d.js"
   ]
 }
